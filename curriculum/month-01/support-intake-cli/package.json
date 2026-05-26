@@ -1,0 +1,26 @@
+{
+  "name": "support-intake-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool that captures one support issue, uses AI to summarize it, and writes a structured intake record for the team.",
+  "main": "index.js",
+
+  "bin": {
+    "triage": "./index.js"
+  },
+
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\""
+  },
+
+  "keywords": ["cli", "support", "ai", "automation"],
+  "author": "Gabriel Oluwaferanmi",
+  "license": "ISC",
+  "type": "commonjs",
+
+  "dependencies": {
+    "@google/genai": "^1.50.1",
+    "dotenv": "^17.4.2",
+    "inquirer": "^13.4.2"
+  }
+}
